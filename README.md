@@ -73,11 +73,8 @@ try {
     // handling code
 }
 Benefits:
-
 Prevents program termination
-
 Shows user-friendly messages
-
 Helps debugging
 
 🔹 finally Block
@@ -88,6 +85,7 @@ Example:
 finally {
     System.out.println("Cleanup done");
 }
+
 🔹 throw Keyword
 Used to manually create an exception.
 
@@ -96,6 +94,7 @@ Example:
 if(age < 18){
     throw new ArithmeticException("Not allowed");
 }
+
 🔹 throws Keyword
 Used to declare exceptions in method signature and pass responsibility to caller.
 
@@ -104,15 +103,14 @@ Example:
 void readFile() throws IOException {
     // code
 }
+
 🔹 Custom Exceptions
 User-defined exceptions created for specific requirements.
 
 Steps:
 
 Extend Exception or RuntimeException
-
 Create constructor
-
 Use throw keyword
 
 Example:
@@ -123,11 +121,8 @@ class InvalidAgeException extends Exception {
     }
 }
 Benefits:
-
 Clear error handling
-
 Better readability
-
 Easy debugging
 
 🔹 Real-Time Use of Exception Handling
