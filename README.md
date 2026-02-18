@@ -127,7 +127,6 @@ Easy debugging
 
 🔹 Real-Time Use of Exception Handling
 Used in applications for:
-
 ✔ Input validation
 ✔ Database errors
 ✔ API failures
@@ -135,17 +134,12 @@ Used in applications for:
 ✔ Network errors
 
 Examples:
-
 Banking → Invalid transaction
-
 E-commerce → Payment failure
-
 Login → Invalid credentials
 
 🔹 How to Run
 Compile:
-
 javac FileName.java
 Run:
-
 java FileName
