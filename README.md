@@ -72,6 +72,7 @@ try {
 } catch(Exception e) {
     // handling code
 }
+```
 Benefits:
 Prevents program termination
 Shows user-friendly messages
@@ -81,45 +82,46 @@ Helps debugging
 Executes always whether exception occurs or not. Used for resource cleanup.
 
 Example:
-
+```
 finally {
     System.out.println("Cleanup done");
 }
-
+```
 🔹 throw Keyword
 Used to manually create an exception.
 
 Example:
-
+```
 if(age < 18){
     throw new ArithmeticException("Not allowed");
 }
-
+```
 🔹 throws Keyword
 Used to declare exceptions in method signature and pass responsibility to caller.
 
 Example:
-
+```
 void readFile() throws IOException {
     // code
 }
-
+```
 🔹 Custom Exceptions
 User-defined exceptions created for specific requirements.
 
 Steps:
-
+```
 Extend Exception or RuntimeException
 Create constructor
 Use throw keyword
-
+```
 Example:
-
+```
 class InvalidAgeException extends Exception {
     InvalidAgeException(String msg){
         super(msg);
     }
 }
+```
 Benefits:
 Clear error handling
 Better readability
@@ -140,6 +142,10 @@ Login → Invalid credentials
 
 🔹 How to Run
 Compile:
+```
 javac FileName.java
+```
 Run:
+```
 java FileName
+```
