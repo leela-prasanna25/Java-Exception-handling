@@ -26,13 +26,14 @@ Examples:
 
 ## 🔹 Exception Hierarchy in Java
 All exceptions are derived from the `Throwable` class.
-
+```
 Object
 ↓
 Throwable
 ↓
 | |
 Exception Error
+```
 
 
 Exception → Can be handled by program  
