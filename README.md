@@ -1,4 +1,4 @@
-# 📘 Java Exception Handling – Complete Guide
+# 📘 Java Exception Handling 
 
 This repository contains practical programs and theory to understand Exception Handling in Java with real-time examples.
 
